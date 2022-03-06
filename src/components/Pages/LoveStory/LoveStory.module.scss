@@ -1,0 +1,10 @@
+@import '../../../assets/scss/colors.scss';
+
+.bg {
+    background-image: url("../../../assets/img/bg/LoveStory.jpg"); 
+    background-position: center;
+    background-size : cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
