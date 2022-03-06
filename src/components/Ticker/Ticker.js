@@ -24,6 +24,7 @@ export const Ticker = ({ futureDate }) => {
 
     return (
         <div className={ style.tickerShell }>
+        
             { tickerContents }           
         </div>              
     );

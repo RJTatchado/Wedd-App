@@ -1,14 +1,19 @@
+@import '../../assets/scss/colors.scss';
+
 .tickerCell {
     flex: 1;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-inline: 10px;
 
     > .tickerCellValue {
         font-size: 7rem;
+        color: $light-gold;
     }
     
     > .tickerCellLabel {
         font-style: italic;
+        color: $light-gold;
     }
 }
