@@ -1,0 +1,49 @@
+@import '../../../assets//scss/colors.scss';
+
+.bg {
+    background-color: $white;
+}
+
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $white;
+    width: 100vw;
+    height: 100vh;
+    max-width:100%; 
+}
+
+.groom {
+    font-family: Lucida Handwriting;
+    font-size: 74px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    color: #dcc8b4;
+    margin-top: 10%;
+}
+.filler {
+    font-family: Lucida Handwriting;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    color: #dcc8b4;
+}
+.bride {
+    font-family: "Lucida Handwriting";
+    font-size: 74px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    color: #dcc8b4;
+}
+
+p {
+    font-style: italic;
+    margin-bottom: 1.8rem;
+    color: #888888;
+    font-size: 30px;
+}
+
