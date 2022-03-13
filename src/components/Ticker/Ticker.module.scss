@@ -4,11 +4,13 @@
     align-self: auto;
     display: flex;
     border: 1px solid $gold;
-    padding: 60px;
-    background-color: $blue;
+    background-color: $dark-blue;
     opacity: 0.8;
-    max-width: 60vw;
-    margin-top: 5%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    bottom: 0%;
 
     .timeIsUp {
         flex: 1;

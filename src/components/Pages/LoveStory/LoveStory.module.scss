@@ -1,11 +1,87 @@
 @import '../../../assets/scss/colors.scss';
 
-.bg {
-    background-image: url("../../../assets/img/bg/LoveStory.jpg"); 
-    background-position: center;
-    background-size : cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $white;
+    color: $white;
+    width: 100%;
+    height: 100%;
     max-width:100%; 
+
+    .header {
+        font-family: Lucida Handwriting;
+        font-size: 50px;
+        font-weight: 100;
+        font-style: normal;
+        text-align: center;
+        color: $gold;
+    }
+
+    .storyContainer {
+        width: 1000px;
+        height: 725px;
+        border: 1px solid $gold;
+        border-radius: 20px;
+
+        .storyCell {
+            display:flex;
+            width: 100%;
+            height: 50%;
+            
+            .storyPhoto {
+                object-fit: fill;
+                width: 300px;
+                height: 350px;
+                padding: 7px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 20px;
+                    border: 1px solid $pure-gold;
+                }
+            }
+
+            .story {
+                display: flex;
+                flex-direction: column;
+                width: 700px;
+                height: 350px;
+                padding: 30px;
+                overflow: hidden;
+
+                .names {
+                    padding-top: 10px;
+                    color: $dark-blue;
+                    font-family: Handwriting;
+                    font-style: italic;
+                    font-size: 24px;
+                }
+
+                p {
+                    margin-top: 8px;
+                    word-wrap: break-word;
+                    font-size: 19px;
+                    width: 650px;
+                    text-align: justify;
+                }
+            }
+        }
+
+        .storyRightPic {
+            display:flex;
+            width: 1000px;
+            height: 350px;
+            
+            p {
+                word-wrap: break-word;
+                width: 700px;
+                height: 350px;
+                font-size: 24px;
+            }
+        }
+    }
 }

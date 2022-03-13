@@ -33,7 +33,8 @@ export const Home = () => {
     return (
         <div className={style.parent} id="homeParentContainer">
             <div className={style.bg}>
-            <ParticleBackground /></div>
+                <ParticleBackground />
+            </div>
             <div className={style.logo}>
                 <img className={style.logoImg} src={Logo} alt='Logo of Richard and Princess Seal'></img>
             </div>

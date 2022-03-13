@@ -1,5 +1,4 @@
 import { TickerCell } from '../TickerCell';
-import { TickerSeparator } from '../TickerSeparator';
 import { useTicker } from '../../hooks';
 
 import style from './Ticker.module.scss';
@@ -11,13 +10,9 @@ export const Ticker = ({ futureDate }) => {
     ) : (
         <>
             <TickerCell value={months} label="Months" />
-            <TickerSeparator />
             <TickerCell value={days} label="Days" />
-            <TickerSeparator />
             <TickerCell value={hours} label="Hours" />
-            <TickerSeparator />
             <TickerCell value={minutes} label="Minutes" />
-            <TickerSeparator />
             <TickerCell value={seconds} label="Seconds" />
         </>
     );
