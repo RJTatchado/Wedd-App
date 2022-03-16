@@ -14,16 +14,16 @@ export const Countdown = () => {
             <div className={style.pictureContainer}>
                 <div className={style.pictureAndName}>
                     <img className={style.profilePicture} src={Profile1} alt='Profile of Richard'></img>
-                    <div className={style.names}>Richard</div>
+                    <h5 className={style.names}>Richard</h5>
                 </div>
                 <div className={style.separator}>&</div> 
                 <div className={style.pictureAndName}>
                     <img className={style.profilePicture} src={Profile2} alt='Profile of Princess'></img>
-                    <div className={style.names}>Princess Jane</div>
+                    <h5 className={style.names}>Princess Jane</h5>
                 </div>
             </div>
             <div className={style.captionContainer}>
-                <div className={style.caption}>Are Getting Married</div>
+                <h1 className={style.caption}>Are Getting Married</h1>
                 <p>on May 22, 2022 - Cebu Philippines</p>
             </div>
             <Ticker futureDate={futureDate} />

@@ -1,5 +1,10 @@
 @import './assets/scss/colors.scss';
 @import './assets/scss/imgsrc.scss';
+@import 'https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Parisienne&display=swap';
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Parisienne', cursive;
+}
 
 * {
     margin: 0;
