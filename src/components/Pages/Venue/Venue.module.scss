@@ -1,9 +1,21 @@
-.bg {
-    background-image: url("../../../assets/img/bg/Venue.jpg"); 
-    background-position: center;
-    background-size : cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+@import '../../../assets/scss/colors.scss';
+
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: $alternate-background-color;
+    width: 100%;
+    height: 100%;
     max-width:100%; 
+
+    .mapLocation {
+        width: 100%;
+        height: 60%;
+        background-color: $white;
+
+        .location {
+            width: 100%;
+            height: 100%;
+        }
+    }
 }
