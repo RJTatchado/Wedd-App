@@ -1,10 +1,16 @@
-@import '../../assets/scss/colors';
+@import '../../assets/scss/colors.scss';
 
 .tickerShell {
-    align-self: stretch;
+    align-self: auto;
     display: flex;
-    border: 1px solid $border-color;
-    padding: 60px;
+    border: 1px solid $gold;
+    background-color: $dark-blue;
+    opacity: 0.8;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    bottom: 0%;
 
     .timeIsUp {
         flex: 1;

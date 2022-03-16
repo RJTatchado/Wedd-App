@@ -1,9 +1,10 @@
 import React from "react";
-import {Home, LoveStory, Photos, RSVP, Venue} from './';
+import {Home, Countdown, LoveStory, Photos, RSVP, Venue} from './';
 
 export const Main = () => (
     <main>
         <Home/>
+        <Countdown/>
         <LoveStory/>
         <Photos/>
         <Venue/>
