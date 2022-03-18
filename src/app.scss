@@ -1,6 +1,8 @@
 @import './assets/scss/colors.scss';
+@import './assets/scss/helpers.scss';
 @import './assets/scss/imgsrc.scss';
 @import 'https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Parisienne&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Material+Icons+Round';
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Parisienne', cursive;
@@ -17,18 +19,18 @@ h1,h2,h3,h4,h5,h6 {
 html, body {
     width: 100vw;
     height: 100vh;
-    max-width:100%; 
+    max-width:100%;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 *::-webkit-scrollbar {
     display: none;
-  }
+}
   
 
 html {
     background: linear-gradient($background-dark-gradient, $background-light-gradient);
-    font-size: 10px;
+    font-size: 16px;
 }
 
 body {

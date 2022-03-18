@@ -1,6 +1,6 @@
 import { Main } from './components/Pages';
 
-import style from './App.module.scss';
+import style from './app.scss';
 
 import NavProvider from './hooks/NavContext';
 
