@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Wedd-App/static/css/main.6b4ba895.chunk.css",
+    "main.js": "/Wedd-App/static/js/main.a5103a72.chunk.js",
+    "main.js.map": "/Wedd-App/static/js/main.a5103a72.chunk.js.map",
+    "runtime-main.js": "/Wedd-App/static/js/runtime-main.f471b8eb.js",
+    "runtime-main.js.map": "/Wedd-App/static/js/runtime-main.f471b8eb.js.map",
+    "static/js/2.1e8ee81e.chunk.js": "/Wedd-App/static/js/2.1e8ee81e.chunk.js",
+    "static/js/2.1e8ee81e.chunk.js.map": "/Wedd-App/static/js/2.1e8ee81e.chunk.js.map",
+    "static/js/3.ca4dca9d.chunk.js": "/Wedd-App/static/js/3.ca4dca9d.chunk.js",
+    "static/js/3.ca4dca9d.chunk.js.map": "/Wedd-App/static/js/3.ca4dca9d.chunk.js.map",
+    "static/js/4.910f5268.chunk.js": "/Wedd-App/static/js/4.910f5268.chunk.js",
+    "static/js/4.910f5268.chunk.js.map": "/Wedd-App/static/js/4.910f5268.chunk.js.map",
+    "index.html": "/Wedd-App/index.html",
+    "static/css/main.6b4ba895.chunk.css.map": "/Wedd-App/static/css/main.6b4ba895.chunk.css.map",
+    "static/js/2.1e8ee81e.chunk.js.LICENSE.txt": "/Wedd-App/static/js/2.1e8ee81e.chunk.js.LICENSE.txt",
+    "static/media/1.65a75665.JPG": "/Wedd-App/static/media/1.65a75665.JPG",
+    "static/media/2.eb9e92a7.JPG": "/Wedd-App/static/media/2.eb9e92a7.JPG",
+    "static/media/3.7e3c3917.JPG": "/Wedd-App/static/media/3.7e3c3917.JPG",
+    "static/media/4.f7da0746.JPG": "/Wedd-App/static/media/4.f7da0746.JPG",
+    "static/media/5.c541f172.JPG": "/Wedd-App/static/media/5.c541f172.JPG",
+    "static/media/app.scss": "/Wedd-App/static/media/Venue.66dd4b69.jpg",
+    "static/media/Home.module.scss": "/Wedd-App/static/media/Home3.c86508ba.jpg",
+    "static/media/Logo-Gold.5a64f92b.png": "/Wedd-App/static/media/Logo-Gold.5a64f92b.png",
+    "static/media/Profile1.534bd6e1.JPG": "/Wedd-App/static/media/Profile1.534bd6e1.JPG",
+    "static/media/Profile2.55a4f275.jpg": "/Wedd-App/static/media/Profile2.55a4f275.jpg",
+    "static/media/backgroundMusic.b438ced6.mp3": "/Wedd-App/static/media/backgroundMusic.b438ced6.mp3",
+    "static/media/firstStoryPhoto.f7746eaa.jpg": "/Wedd-App/static/media/firstStoryPhoto.f7746eaa.jpg",
+    "static/media/pause.8b8359d8.svg": "/Wedd-App/static/media/pause.8b8359d8.svg",
+    "static/media/play.196113d3.svg": "/Wedd-App/static/media/play.196113d3.svg",
+    "static/media/secondStoryPhoto.f8516f0c.jpg": "/Wedd-App/static/media/secondStoryPhoto.f8516f0c.jpg",
+    "static/media/stop.4c683b41.svg": "/Wedd-App/static/media/stop.4c683b41.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f471b8eb.js",
+    "static/js/2.1e8ee81e.chunk.js",
+    "static/css/main.6b4ba895.chunk.css",
+    "static/js/main.a5103a72.chunk.js"
+  ]
+}
