@@ -14,7 +14,7 @@
 }
 
 .caption {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 100;
     font-style: normal;
     text-align: center;
@@ -23,10 +23,9 @@
 }
 
 p {
-    font-family: 'Nunito', sans-serif;
     margin-bottom: 1.8rem;
     color: #888888;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .pictureContainer {
@@ -38,7 +37,7 @@ p {
     margin-top: 5%;
 
     .separator {
-        font-family: Handwriting;
+        font-family: 'Parisienne', cursive;
         color: $gold;
         font-size: 70px;
     }
@@ -56,8 +55,8 @@ p {
         .names {
             padding-top: 10px;
             color: $dark-blue;
-            font-style: italic;
-            font-size: 30px;
+            font-size: 40px;
+            font-weight: 200;
         }
     }
 }
