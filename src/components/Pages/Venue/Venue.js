@@ -13,8 +13,10 @@ export const Venue = () => {
                     <ZoomControl />
                 </Map>
             </div>
-            <div>Paradise Garden Events Pavilion</div>
-            <div>Canduman, 6001 Mandaue City, Philippines</div>
+            <h1>Venue</h1>
+            <h2>Paradise Garden Events Pavilion</h2>
+            <p>Canduman, 6001 Mandaue City, Philippines</p>
+            <p>May 22, 2022 - 3:00pm</p>
             
         </div>
     );

@@ -3,6 +3,7 @@
 .pageContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: $alternate-background-color;
     width: 100%;
     height: 100%;

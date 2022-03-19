@@ -1,11 +1,31 @@
 @import './assets/scss/colors.scss';
 @import './assets/scss/helpers.scss';
 @import './assets/scss/imgsrc.scss';
-@import 'https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Parisienne&display=swap';
 @import 'https://fonts.googleapis.com/css2?family=Material+Icons+Round';
+@import 'https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Parisienne&family=Great+Vibes&family=Allura&display=swap';
 
-h1,h2,h3,h4,h5,h6 {
+h1 {
     font-family: 'Parisienne', cursive;
+    font-size: 60px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    color: $gold;
+}
+
+h2{
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+    font-weight: 100;
+    color: $dark-blue;
+}
+
+h3,h4,h5,h6 {
+    font-family: 'Allura', cursive;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
 }
 
 * {

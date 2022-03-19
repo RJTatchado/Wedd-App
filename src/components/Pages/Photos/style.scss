@@ -1,10 +1,26 @@
+@import '../../../assets/scss/colors.scss';
+
 section {
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #fff;
+    
 }
+
+h1 {
+    
+    font-size: 60px;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 10px;
+    color: $gold;
+    
+}
+
 
 .carousel {
     width: 1024px;
@@ -22,10 +38,9 @@ section {
         margin: auto 0;
         height: 50px;
         width: 50px;
-        border-radius: 100%;
         border: 0;
-        background-color: rgba(255,255,255, 0.9);
         z-index: 2;
+        background: rgba(255,255,255,0);
 
         &.button--left {
             left: 10px;
@@ -33,6 +48,11 @@ section {
 
         &.button--right {
             right: 10px;
+        }
+
+        .arrow-right, .arrow-left {
+            height: 50px;
+            width: 50px;
         }
     }
     
@@ -42,12 +62,11 @@ section {
         top: 0;
         height: 100%;
         width: 100%;
-        transition: all 0.3s ease-in-out;
+        transition: all 1s ease-in-out;
 
         figure {
             height: 100%;
             width: 100%;
-            background-color: #000;
             display: inline-block;
             position: relative;
 
