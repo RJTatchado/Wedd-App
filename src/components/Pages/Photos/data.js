@@ -6,10 +6,10 @@ import Photo5 from '../../../assets/img/Photos/5.JPG';
 import Photo6 from '../../../assets/img/Photos/1.JPG';
 import Photo7 from '../../../assets/img/Photos/7.JPG';
 import Photo8 from '../../../assets/img/Photos/8.JPG';
-import Photo9 from '../../../assets/img/Photos/9.JPG';
-import Photo10 from '../../../assets/img/Photos/10.JPG';
-import Photo11 from '../../../assets/img/Photos/11.JPG';
-import Photo12 from '../../../assets/img/Photos/12.JPG';
+import Photo9 from '../../../assets/img/Photos/9.jpg';
+import Photo10 from '../../../assets/img/Photos/10.jpg';
+import Photo11 from '../../../assets/img/Photos/11.jpg';
+import Photo12 from '../../../assets/img/Photos/12.jpg';
 import Photo13 from '../../../assets/img/Photos/13.JPG';
 import Photo14 from '../../../assets/img/Photos/14.JPG';
 import Photo15 from '../../../assets/img/Photos/15.JPG';
@@ -19,6 +19,8 @@ import Photo18 from '../../../assets/img/Photos/18.JPG';
 import Photo19 from '../../../assets/img/Photos/19.JPG';
 import Photo20 from '../../../assets/img/Photos/20.JPG';
 import Photo21 from '../../../assets/img/Photos/21.JPG';
+import Photo22 from '../../../assets/img/Photos/22.jpg';
+
 
 const Images = [
     Photo1,
@@ -42,6 +44,7 @@ const Images = [
     Photo19,
     Photo20,
     Photo21,
+    Photo22,
 ];
 
 export default Images;

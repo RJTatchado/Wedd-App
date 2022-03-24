@@ -15,8 +15,8 @@ export const Venue = () => {
             </div>
             <h1>Venue</h1>
             <h2>Paradise Garden Events Pavilion</h2>
-            <p>Canduman, 6001 Mandaue City, Philippines</p>
-            <p>May 22, 2022 - 3:00pm</p>
+            <p>Canduman, Mandaue City, Cebu, Philippines 6001</p>
+            <p>May 22, 2022 - 2:00pm</p>
             
         </div>
     );
