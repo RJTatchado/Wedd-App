@@ -5,7 +5,7 @@ import Profile1 from '../../../assets/img/Photos/Profile1.JPG';
 import Profile2 from '../../../assets/img/Photos/Profile2.jpg';
 
 // Future date is set to May 22, 2022 at 3pm
-const futureDate = new Date(2022,4,22,15,0,0,0);
+const futureDate = new Date(2022,4,22,14,0,0,0);
 
 export const Countdown = () => {
 
