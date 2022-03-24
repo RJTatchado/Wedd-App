@@ -18,7 +18,7 @@ export const Photos = () => {
     }, [currentPhoto])
 
     return (
-        <section>
+        <section className="pageContainer">
             <h1>Photos</h1>
             <div ref={carouselRef} className="carousel">
                 {currentPhoto !== 0 && (

@@ -6,7 +6,7 @@ import secondPhoto from '../../../assets/img/Photos/secondStoryPhoto.jpg';
 export const LoveStory = () => {
 
     return (
-        <div className={style.pageContainer}>
+        <div className="pageContainer">
             <h1 className={style.header}>Bride and Groom</h1>
             <div className={style.storyContainer}>
                 <div className={style.storyCell}>
