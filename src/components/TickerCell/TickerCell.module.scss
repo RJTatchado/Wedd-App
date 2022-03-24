@@ -11,10 +11,32 @@
     > .tickerCellValue {
         font-size: 7rem;
         color: $light-gold;
+
+        @media screen and (max-width: 1680px) {
+            font-size: 4rem;
+        }
+
+        @media screen and (max-width: 1024px) {
+            font-size: 2.5rem;
+        }
     }
     
     > .tickerCellLabel {
         color: $light-gold;
-        font-size: 30px;
+        font-size: 1.875rem;
+
+        @media screen and (max-width: 1680px) {
+            font-size: 1.5rem;
+        }
+
+        // tab landscape
+        @media screen and (max-width: 1024px) {
+            font-size: 2.5rem;
+        }
+
+        // tab portrait
+        @media screen and (max-width: 768px) {
+            font-size: 2.5rem;
+        }
     }
 }

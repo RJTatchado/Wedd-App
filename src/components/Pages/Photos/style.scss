@@ -11,23 +11,23 @@ section {
 
 h1 {
     
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 100;
     font-style: normal;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     color: $gold;
     
 }
 
 
 .carousel {
-    width: 1024px;
-    height: 768px;
+    width: 64rem;
+    height: 48rem;
     white-space: nowrap;
     overflow: hidden;
-    border-radius: 10px;
-    margin-bottom: 40px;
+    border-radius: 0.625rem;
+    margin-bottom: 2.5rem;
     position: relative;
 
     .carousel-button {
@@ -35,23 +35,23 @@ h1 {
         top: 0;
         bottom: 0;
         margin: auto 0;
-        height: 50px;
-        width: 50px;
+        height: 3.125rem;
+        width: 3.125rem;
         border: 0;
         z-index: 2;
         background: rgba(255,255,255,0);
 
         &.button--left {
-            left: 10px;
+            left: 0.625rem;
         }
 
         &.button--right {
-            right: 10px;
+            right: 0.625rem;
         }
 
         .arrow-right, .arrow-left {
-            height: 50px;
-            width: 50px;
+            height: 3.125rem;
+            width: 3.125rem;
         }
     }
     
