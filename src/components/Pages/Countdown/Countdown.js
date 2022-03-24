@@ -10,7 +10,7 @@ const futureDate = new Date(2022,4,22,14,0,0,0);
 export const Countdown = () => {
 
     return (
-        <div className={style.pageContainer}>
+        <div className="pageContainer">
             <div className={style.pictureContainer}>
                 <div className={style.pictureAndName}>
                     <img className={style.profilePicture} src={Profile1} alt='Profile of Richard'></img>

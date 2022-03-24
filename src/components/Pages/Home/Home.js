@@ -31,7 +31,7 @@ export const Home = () => {
     }
 
     return (
-        <div className={style.parent} id="homeParentContainer">
+        <div className={`${style.parent} pageContainer`} id="homeParentContainer">
             <div className={style.bg}>
                 <ParticleBackground />
             </div>
