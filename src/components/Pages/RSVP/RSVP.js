@@ -9,7 +9,7 @@ export const RSVP = () => {
             <div className={style.bg}>
                 <img src={backgroundPhoto} alt='bible and family'></img>
             </div>
-            
+                
         </section>
     );
 }

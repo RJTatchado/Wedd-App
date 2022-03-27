@@ -7,13 +7,17 @@ section {
     align-items: center;
     justify-content: center;
     background-color: $white;
-    
-    
+    padding: 3rem 0;
 }
 
 .bg {
-    width: 100vw;
-    height: 60vh;
+    width: 100%;
+    height: auto;
+    -webkit-filter: contrast(50%);
+    -moz-filter: contrast(50%);
+    -o-filter: contrast(50%);
+    -ms-filter: contrast(50%);
+    filter: contrast(50%);
     img {
         object-fit: cover;
         object-position: center center;

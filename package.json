@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "homepage": "http://richardandprincesswedding.com/",
-=======
-  "homepage": "./",
->>>>>>> be6644aa072cc2a8ef103145a328f628c6c9f402
   "name": "wed-app",
   "version": "0.1.0",
   "private": true,
