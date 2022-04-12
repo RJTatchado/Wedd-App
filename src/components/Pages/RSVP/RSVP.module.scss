@@ -11,17 +11,19 @@ section {
 }
 
 .bg {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./../../../assets/img/Photos/rsvp.jpg");
+    background-position: center;
+    background-size : auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%;
-    height: auto;
-    -webkit-filter: contrast(50%);
-    -moz-filter: contrast(50%);
-    -o-filter: contrast(50%);
-    -ms-filter: contrast(50%);
-    filter: contrast(50%);
-    img {
-        object-fit: cover;
-        object-position: center center;
-        width: 100%;
-        height: 100%;
-    }
+    height: 37rem;
+    -webkit-filter: contrast(70%);
+    -moz-filter: contrast(70%);
+    -o-filter: contrast(70%);
+    -ms-filter: contrast(70%);
+    filter: contrast(70%);
 }

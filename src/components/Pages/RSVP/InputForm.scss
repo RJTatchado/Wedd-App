@@ -1,0 +1,210 @@
+@import '../../../assets//scss/colors.scss';
+
+html {
+  height: 100%;
+}
+
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: linear-gradient(#141e30, #243b55);
+}
+
+.rsvp-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25rem;
+  padding: 2.5rem;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 0.938rem 1.563rem rgba(0,0,0,.6);
+  border-radius: 0.625rem;
+}
+
+.rsvp-box h2 {
+  margin: 0 0 1.875rem;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.rsvp-box .user-box {
+  position: relative;
+}
+
+.rsvp-box .user-box input {
+  width: 100%;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 1.875rem;
+  border: none;
+  border-bottom: 0.063rem solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+label {
+  position: absolute;
+  top: -1.25rem;
+  left: 0;
+  padding: 0.625rem 0;
+  font-size: 0.75rem;
+  color: #03e9f4;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.rsvp-box form button {
+  position: relative;
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  color: #03e9f4;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 2.5rem;
+  letter-spacing: 0.25rem;
+  background: transparent;
+  border: 0;
+}
+
+.rsvp-box button:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 0.313rem;
+  box-shadow: 0 0 0.313rem #03e9f4,
+              0 0 1.563rem #03e9f4,
+              0 0 3.125rem #03e9f4,
+              0 0 6.25rem #03e9f4;
+}
+
+.rsvp-box button span {
+  position: absolute;
+  display: block;
+}
+
+.rsvp-box button span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 0.125rem;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.rsvp-box button span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 0.125rem;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+.rsvp-box button span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 0.125rem;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+.rsvp-box button span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 0.125rem;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
+
+.countAttendees {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.countAttendeesChild {
+  width: 48%;
+}
+
+.disabledInput {
+  pointer-events: none;
+}
+
+.response {
+  display: flex;
+  flex-direction: row;
+}
+
+.radioButtonWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.radioButtonChoice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1.25rem;
+  
+
+  input {
+    width: auto !important;
+    margin-bottom: 0 !important;
+    margin-right: 0.625rem;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+  }
+}
