@@ -38,7 +38,8 @@ const InputForm = () => {
       invitees : form.invitees,
       attending : form.attending,
       isGoing : form.isGoing,
-      name : form.name
+      name : form.name,
+      responded : "yes"
     })
     .then(() => {
       alert("Response submitted successfully! Thank you");

@@ -63,6 +63,7 @@ html, body {
 
 html {
     background: linear-gradient($background-dark-gradient, $background-light-gradient);
+    scroll-behavior: smooth;
 }
 
 body {

@@ -12,6 +12,7 @@ section {
 
 .bg {
     display:flex;
+    padding: 10rem 1rem;
     justify-content: center;
     align-items: center;
     background-image: url("./../../../assets/img/Photos/rsvp.jpg");
@@ -20,7 +21,6 @@ section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    height: 37rem;
     -webkit-filter: contrast(70%);
     -moz-filter: contrast(70%);
     -o-filter: contrast(70%);

@@ -6,7 +6,7 @@ export const RSVP = () => {
         <section>
             <h1>RSVP</h1>
             <div className={style.bg}>
-                    <InputForm/>
+                <InputForm/>
             </div>
                 
         </section>
